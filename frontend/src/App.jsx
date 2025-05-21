@@ -69,16 +69,6 @@ function App() {
         </span>
             <CodeSnippet />
       </div>
-      <div className="snippet">
-        <h3>Model Training Source Code</h3>
-        <span className="githublink">
-          Or visit the{' '}
-          <a href="https://github.com/andyfief/MNIST-from-scratch" style={{ textDecoration: 'underline' }}>
-            GitHub Repository
-          </a>
-        </span>
-            <CodeSnippet />
-      </div>
     </div>
   );
 }
