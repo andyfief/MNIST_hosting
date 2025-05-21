@@ -63,7 +63,7 @@ function App() {
         <h3>Learn More</h3>
         <span className="links">
             View the{' '}
-            <a href="../public/TechnicalDescription.pdf" target="_blank" style={{ textDecoration: 'underline' }}>
+            <a href="https://scratchmnist.org/TechnicalDescription.pdf" target="_blank" style={{ textDecoration: 'underline' }}>
               Technical Description
             </a> {' '}
             or visit the{' '}
