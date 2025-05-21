@@ -1,25 +1,39 @@
+
+#hosting stuff
+#**/[Dd]ockerfile
+#**/.[Dd]ockerignore
+#**/[Dd]ocker-compose.yml
+#**/*.comf
+
 # Logs
-logs
-*.log
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+webapp/**/logs/
+webapp/**/*.log
+webapp/npm-debug.log*
+webapp/yarn-debug.log*
+webapp/yarn-error.log*
+webapp/pnpm-debug.log*
+webapp/lerna-debug.log*
 
-**/node_modules*
+# Build output
+**/node_modules/
+**/dist/
+**/dist-ssr/
 
-dist
-dist-ssr
 *.local
 
+# Ignore .csv files in any MNIST_Data folder
+**/MNIST_Data/*.csv
+
 # Editor directories and files
-.vscode/*
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Ignore backend Dockerfile
+webapp/backend/Dockerfile
