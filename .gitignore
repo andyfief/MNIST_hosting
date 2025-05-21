@@ -1,9 +1,9 @@
 
 #hosting stuff
-#**/[Dd]ockerfile
-#**/.[Dd]ockerignore
-#**/[Dd]ocker-compose.yml
-#**/*.comf
+**/[Dd]ockerfile
+**/.[Dd]ockerignore
+**/[Dd]ocker-compose.yml
+**/*.comf
 
 # Logs
 webapp/**/logs/
