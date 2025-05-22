@@ -18,6 +18,7 @@ services:
       dockerfile: Dockerfile
     ports:
       - "80:80"
+
     depends_on:
       - backend
     # Add a nginx configuration that redirects /api to the backend
